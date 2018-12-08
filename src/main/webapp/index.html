@@ -6,8 +6,22 @@
 </head>
 <body>
 
-<button>Encode</button>
-<button>Decode</button>
+<div>
+    <h1>Encode</h1>
+    <form method="post" action="Stegatize" enctype="multipart/form-data">
+        <input name="picture" type="file">
+        <input name="text" type="file">
+        <input type="submit">
+    </form>
+</div>
+
+<div>
+    <h1>Decode</h1>
+    <form method="post" action="Stegatize" enctype="multipart/form-data">
+        <input name="picture" type="file">
+        <input type="submit">
+    </form>
+</div>
 
 </body>
 </html>

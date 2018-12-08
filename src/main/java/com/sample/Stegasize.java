@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 
 public class Stegasize {
 
-    public void run(InputStream imgFile, InputStream txtFile) {
+    public static void run(InputStream imgFile, InputStream txtFile) {
         String imageFilename = null,messageFilename = null,outputFilename = null;
 
         /*
