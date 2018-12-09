@@ -14,11 +14,6 @@
 <div>
 <%
 String result= (String) request.getAttribute("out");
-Iterator it = result.iterator();
-
-out.println("<br>We have <br><br>");
-while(it.hasNext()){
-out.println(it.next()+"<br>");
 }
 %>
 </div>
