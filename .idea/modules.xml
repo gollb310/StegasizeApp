@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D://StegasizeApp/StegasizeApp.iml" filepath="D://StegasizeApp/StegasizeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StegasizeApp.iml" filepath="$PROJECT_DIR$/StegasizeApp.iml" />
     </modules>
   </component>
 </project>

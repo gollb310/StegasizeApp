@@ -1,0 +1,13 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: "Franklin Gothic";
+    background-color: #74edb5;
+    background-image: linear-gradient(#74ebd5, #ACB6E5);
+}
+
+div{
+    text-align: center;
+}

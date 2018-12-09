@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Stegasize</title>
+    <link rel="stylesheet" type="text/css" href="stegastyle.css">
 </head>
 <body>
 
 <div>
-    <h1>Encode</h1>
+    <h1>Will and Brandon's Steganography Project</h1>
+    <p>What is Steganography?</p>
+</div>
+
+<br>
+<hr>
+
+<div>
+    <h2>Encode</h2>
     <form method="post" action="Stegatize" enctype="multipart/form-data">
-        <input name="picture" type="file">
-        <input name="text" type="file">
+        <label for="encPic">Image(Only Supports .png files)</label>
+        <input id="encPic" name="picture" type="file" accept=".png">
+        <label for="encTxt">Text File (.txt Files)</label>
+        <input id="encTxt" name="text" type="file" accept=".txt">
         <input type="submit">
     </form>
 </div>
 
+<hr>
+
 <div>
-    <h1>Decode</h1>
+    <h2>Decode</h2>
     <form method="post" action="Stegatize" enctype="multipart/form-data">
-        <input name="picture" type="file">
+        <label for="decPic">Image(Only Supports .png files)</label>
+        <input id="decPic" name="picture" type="file" accept=".png">
         <input type="submit">
     </form>
 </div>
