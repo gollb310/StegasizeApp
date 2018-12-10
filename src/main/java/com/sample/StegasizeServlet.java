@@ -30,12 +30,14 @@ public class StegasizeServlet extends HttpServlet{
 
         Stegasize stega = new Stegasize();
 
-        //Object out = Stegasize.run(imgFile, txtFile);
+        //String out = Stegasize.run(imgFile, txtFile);
 
         imgFile.close();
         txtFile.close();
 
-        //req.setAttribute("out", out);
+        String out = "TestString";
+
+        req.setAttribute("thing", out);
         RequestDispatcher view = req.getRequestDispatcher("result.jsp");
         view.forward(req, resp);
 

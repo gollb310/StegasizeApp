@@ -9,7 +9,7 @@
 
 <div>
     <h1>Will and Brandon's Steganography Project</h1>
-    <p>What is Steganography?</p>
+    <a href="about.html">What is Steganography?</a>
 </div>
 
 <br>
@@ -19,9 +19,9 @@
     <h2>Encode</h2>
     <form method="post" action="Stegatize" enctype="multipart/form-data">
         <label for="encPic">Image(Only Supports .png files)</label>
-        <input id="encPic" name="picture" type="file" accept=".png">
+        <input id="encPic" name="picture" type="file" accept=".png" required>
         <label for="encTxt">Text File (.txt Files)</label>
-        <input id="encTxt" name="text" type="file" accept=".txt">
+        <input id="encTxt" name="text" type="file" accept=".txt" required>
         <input type="submit">
     </form>
 </div>
@@ -32,7 +32,7 @@
     <h2>Decode</h2>
     <form method="post" action="Stegatize" enctype="multipart/form-data">
         <label for="decPic">Image(Only Supports .png files)</label>
-        <input id="decPic" name="picture" type="file" accept=".png">
+        <input id="decPic" name="picture" type="file" accept=".png" required>
         <input type="submit">
     </form>
 </div>
